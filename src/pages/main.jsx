@@ -1,5 +1,11 @@
+import Intro from "../components/Intro";
+
 const Main = () => {
-  return <div>main</div>;
+  return (
+    <div>
+      <Intro />
+    </div>
+  );
 };
 
 export default Main;
