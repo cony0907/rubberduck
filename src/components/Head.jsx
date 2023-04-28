@@ -5,7 +5,7 @@ import { SiDuckduckgo } from "react-icons/si";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-const Header = ({ account, setAccount }) => {
+const Head = ({ account, setAccount }) => {
   const [coinPrice, setCoinPrice] = useState();
 
   const getCoinPrice = async () => {
@@ -86,4 +86,4 @@ const Header = ({ account, setAccount }) => {
   );
 };
 
-export default Header;
+export default Head;
