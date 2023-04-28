@@ -35,7 +35,7 @@ const Intro = ({ totalNft, mintedNft, myNft }) => {
           <div className="text-white ml-2">{CONTRACT_ADDRESS}</div>
         </div>
         <div className="mt-2 text-black text-xl">
-          "I created 1000 ducks in pixel art. They are everywhere, and I believe
+          "I created 100 ducks in pixel art. They are everywhere, and I believe
           someday they will conquer the world. The ducks will find you."
         </div>
 
