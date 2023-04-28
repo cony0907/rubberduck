@@ -61,8 +61,8 @@ const Header = ({ account, setAccount }) => {
           </ul>
         )}
         {account ? (
-          <div className="flex items-center p-2 bg-gray-300 rounded-full ml-4">
-            <div className="bg-yellow-300 w-6 h-6 rounded-full flex justify-center items-center">
+          <div className="flex items-center p-2 bg-gray-800 rounded-full ml-4">
+            <div className="bg-yellow-500 w-6 h-6 rounded-full flex justify-center items-center">
               <SiDuckduckgo />
             </div>
             <div>
@@ -75,7 +75,7 @@ const Header = ({ account, setAccount }) => {
             onClick={onClickAccount}
             className="flex items-center p-2 bg-gray-800 rounded-full ml-4"
           >
-            <div className="bg-yellow-300 w-6 h-6 rounded-full flex justify-center items-center">
+            <div className="bg-yellow-500 w-6 h-6 rounded-full flex justify-center items-center">
               <GiDuckPalm />
             </div>
             <div className="ml-3 text-white">Connect</div>
