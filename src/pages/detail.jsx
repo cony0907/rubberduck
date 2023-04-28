@@ -43,10 +43,9 @@ const Detail = ({ mintedNft }) => {
             </ul>
           </div>
           <div className="m-8">
-            <div className="text-4xl flex items-center">
-              <div>{metadata.name}</div>
-              <div className="flex items-center">
-                <div>🐣</div>
+            <div className="text-4xl flex flex-col items-center">
+              <div>{metadata.name}🐣</div>
+              <div className="mt-5 mr-2">
                 <Link
                   to={`https://testnets.opensea.io/assets/mumbai/0x66ce3ea74d3177655d0d2fb178aeacd6fab1ad1a/${tokenId}`}
                   target="_blank"
@@ -60,7 +59,7 @@ const Detail = ({ mintedNft }) => {
                 </Link>
               </div>
             </div>
-            <div className="mt-8 text-2xl">{metadata.description}</div>
+            <div className="mt-8 text-2xl ml-8">{metadata.description}</div>
           </div>
         </>
       ) : (
